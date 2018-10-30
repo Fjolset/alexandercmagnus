@@ -1,0 +1,154 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+body, html
+{
+    height: 100%;
+}
+
+#blackFont
+{
+    color: black;
+}
+
+#nameTag
+{
+    position: fixed;
+    
+    display: block;
+    
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: left;;
+    color: #000;
+}
+
+.nameTagBorder
+{
+    background-color: #201F24;
+    color: white;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+    opacity: 1.5;
+}
+
+.parallax
+{
+    background-image: url(../images/morMig.jpg);
+    
+    height: 100%;
+    
+    opacity: 0.80;
+    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.about, .project1, .project2, .project3
+{
+    color: #777;
+    
+    background-color: #201F24;
+    text-align: center;
+    padding: 50px 80px;
+    text-align: justify;
+    
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-weight: 400;
+    font-stretch: normal;
+    font-size: 15px;
+    line-height: 1.8;
+    font-family: Lato, sans-serif;
+}
+
+.project1
+{
+    
+}
+
+h3
+{
+    letter-spacing: 5px;
+    color: white;;
+    text-align: center;
+}
+
+
+
+.aboutPicture
+{
+    height: 800px;
+    
+    background-image: url(../images/surMig.JPG);
+    
+    position: relative;
+    opacity: 0.65;
+    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.vinstuen, .reuse, .bfr
+{
+    height: 1000px;
+    
+    background-image: url(../images/vinstuen.PNG);
+    
+    position: relative;
+    opacity: 0.65;
+    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.reuse
+{
+    background-image: url(../images/reuse.PNG);
+}
+
+.bfr
+{
+    background-image: url(../images/bfr.jpg);
+}
+
+/*MOBIL*/
+@media(max-width: 767px)
+{
+    body
+    {
+        background-color: blueviolet;
+    }   
+}
+
+/*TABLET*/
+@media (min-width: 768px) and (max-width: 1023px)
+{
+    body
+    {
+        background-color: darkorange;
+    }  
+}
+    
+/*NORMAL DESKTOP*/
+@media (min-width: 1024px)
+{
+    body
+    {
+        background-color: white;
+    }  
+}
